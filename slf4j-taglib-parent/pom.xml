@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.slf4j.taglib</groupId>
+	<name>slf4j-taglib-parent</name>
+	<url>http://www.slf4j.org/taglib</url>
+	<version>0.1-SNAPSHOT</version>
+	<artifactId>slf4j-taglib-parent</artifactId>
+	<packaging>pom</packaging>
+	<modules>
+		<module>../slf4j-taglib</module>
+		<module>../slf4j-taglib-samples</module>
+	</modules>
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+	<organization>
+		<name>QOS.ch</name>
+		<url>http://www.qos.ch</url>
+	</organization>
+	<inceptionYear>2008</inceptionYear>
+	<developers>
+		<developer>
+			<id>mhumph</id>
+			<name>Matt Humphreys</name>
+			<email>mhumph@gmail.com</email>
+			<url>http://www.yojava.org</url>
+			<organization>yojava</organization>
+			<organizationUrl>http://www.yojava.org</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>0</timezone>
+		</developer>
+	</developers>
+</project>
